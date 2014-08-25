@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["riboulet@gmail.com"]
   spec.summary       = %q{A simple wrapper for Push Woosh.}
   spec.description   = %q{A simple wrapper for Push Woosh.}
-  spec.homepage      = "https://github.com:mcansky/push_woosher"
+  spec.homepage      = "https://github.com/mcansky/push_woosher"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
