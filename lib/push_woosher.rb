@@ -4,7 +4,6 @@ require 'json'
 require 'bundler'
 require 'faraday'
 require 'securerandom'
-require 'active_support/inflector'
 
 Bundler.setup(:default)
 

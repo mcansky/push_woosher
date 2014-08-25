@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["riboulet@gmail.com"]
   spec.summary       = %q{A simple wrapper for Push Woosh.}
   spec.description   = %q{A simple wrapper for Push Woosh.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com:mcansky/push_woosher"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -25,5 +25,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec-its', '~> 1.0.1'
   spec.add_dependency 'faraday'
   spec.add_dependency 'virtus'
-  spec.add_dependency 'activesupport', '= 3.2.18'
 end

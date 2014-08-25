@@ -133,6 +133,10 @@ push.post
 
 PushWoosh shows the push history easily in their web panel.
 
+## Requirements
+
+This gems uses Virtus to make things easier internally. There is no dependency on ActiveSupport.
+
 
 ## Contributing
 
