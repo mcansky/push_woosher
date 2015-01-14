@@ -126,7 +126,7 @@ Sending a push notification itself can be done as follow :
 ```
 notification = {} # use the format seen previously
 
-push = PushWoosher::new(notification: notification)
+push = PushWoosher::Push.new(notification: notification)
 
 push.post
 ```
